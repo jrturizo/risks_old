@@ -1,0 +1,29 @@
+
+
+.navbar-xlg {    
+	background-color:#c20022;
+}
+
+.navbar-xlg:before {	
+	background-image: url(./images/1.jpg);
+	background-position: 0 100%; 	  
+}
+
+.navbar-xlg .navbar-header {    
+	background: #fff url(./images/3.jpg) no-repeat center center;		
+	background-size: contain;
+}
+
+.sidebar-content{
+	background:#9e1930;
+}
+
+.sidebar-content:before{
+	background-image: url(./images/1.jpg);
+	background-position: 0 100%; 
+}
+
+.w-home{
+	background: #fff url(./images/2.jpg) no-repeat center center;		
+	background-size: cover;
+}

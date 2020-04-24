@@ -1,0 +1,130 @@
+.navbar-xlg {
+					background-color:#1f286d
+				}
+
+				.navbar-xlg:before {
+					background-image: url(../images/banner-risks.jpg);
+					background-position: 0 100%;
+				}
+
+				.navbar-xlg .navbar-header {
+					background: #fff url(../images/logo-risks-adm.png) no-repeat center center;	
+					background-size: contain;
+				}
+
+				.sidebar-content{
+					background:#1f286d
+				}
+
+				.sidebar-content:before{
+					background-image: url(../images/banner-risks_1.jpg);
+					background-position: 0 100%;
+				}
+
+				.w-home{
+					/*background: #fff url(assets/images/banner-risks.jpg) no-repeat center center;*/
+					background-size: cover;
+				}
+
+
+
+
+
+			.input-file-container {
+			  position: relative;
+			  width: 170px;
+			} 
+			.js .input-file-trigger {
+			  display: block;
+			  padding: 14px 45px;
+			  background: #85C1E9;
+			  color: #fff;
+			  font-size: 1em;
+			  transition: all .4s;
+			  cursor: pointer;
+			}
+			.js .input-file {
+			  position: absolute;
+			  top: 0; left: 0;
+			  width: 170px;
+			  opacity: 0;
+			  padding: 14px 0;
+			  cursor: pointer;
+			}
+			.js .input-file:hover + .input-file-trigger,
+			.js .input-file:focus + .input-file-trigger,
+			.js .input-file-trigger:hover,
+			.js .input-file-trigger:focus {
+			  background: #F0F8FF;
+			  color: #85C1E9;
+			}
+
+			.file-return {
+			  margin: 0;
+			}
+			.file-return:not(:empty) {
+			  margin: 1em 0;
+			}
+			.js .file-return {
+			  font-style: italic;
+			  font-size: .9em;
+			  font-weight: bold;
+			}
+			.js .file-return:not(:empty):before {
+			  content: "Selected file: ";
+			  font-style: normal;
+			  font-weight: normal;
+			}
+
+
+			h1, h2 {
+			  margin-bottom: 5px;
+			  font-weight: normal;
+			  text-align: center;
+			  color:#aaa;
+			}
+			h2 {
+			  margin: 5px 0 2em;
+			  color: #1ABC9C;
+			}
+			h2 + P {
+			  text-align: center;
+			}
+			.txtcenter {
+			  margin-top: 4em;
+			  font-size: .9em;
+			  text-align: center;
+			  color: #aaa;
+			}
+			.copy {
+			  margin-top: 2em;
+			}
+			.copy a {
+			  text-decoration: none;
+			  color: #1ABC9C;
+			}
+			hr {
+				display: block;
+				margin-top: 0.5em;
+				margin-bottom: 0.5em;
+				margin-left: auto;
+				margin-right: auto;
+				border-style: inset;
+				border-width: 3px;
+			}
+			.div_contacto{
+				background-color: #E5EEF4;
+			}
+			.div_total{
+				background-color:  #fddfdf;
+			}
+			.div_stro{
+				background-color:  #defde0;
+			}
+			.div_complemento{
+				background-color: #fadbd8;
+			}
+			.div_extranjero{
+				background-color: #C39BD3;
+			}
+			

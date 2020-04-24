@@ -1,0 +1,18 @@
+<?php
+
+
+class cadenas {
+
+private $stmt = '';
+
+public function puntuacion($cadena){
+                                     $this->stmt = '';
+									 $search = explode(",","á,é,í,ó,ú,ñ,Á,É,Í,Ó,Ú,Ñ,Ã¡,Ã©,Ã­,Ã³,Ãº,Ã±,ÃÃ¡,ÃÃ©,ÃÃ­,ÃÃ³,ÃÃº,ÃÃ±,ï¿½,Ã‘");
+									 $replace = explode(",","á,é,í,ó,ú,ñ,Á,É,Í,Ó,Ú,Ñ,á,é,í,ó,ú,ñ,Á,É,Í,Ó,Ú,Ñ,Ñ,Ñ");
+									 $this->stmt = str_replace($search, $replace, $cadena);
+									 return $this->stmt;
+								
+								}
+ 
+ }
+ ?>

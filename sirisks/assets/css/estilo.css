@@ -1,0 +1,18 @@
+
+input[type=submit]{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+label.error{
+    color:red;
+    background-image: url(img/error.png);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+input.error{
+    background-color: #FF9F9F;
+}
+textarea.error{
+    background-color: #FF9F9F;
+}
